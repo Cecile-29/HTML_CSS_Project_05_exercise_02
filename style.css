@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  /*
+  l'espace est le meme entre tous les elements
+  les elements prennent tout l'espace disponible
+  pas d'espace entre les bords et le premier/dernier
+  elements
+  */
+  justify-content: space-between;
+}
+.round{
+  margin-top: 1%;
+  width: 10%;
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+.square{
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 75%;
+  height: 100px;
+  background-color: lightgreen;
+}
